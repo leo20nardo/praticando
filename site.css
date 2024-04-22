@@ -1,0 +1,136 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: NATUREZA;
+    src: url(fonte/GREEN\ NATURE.ttf);
+}
+
+body {
+    background-color: #101220;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#paragrafo {
+    height: auto;
+    width: auto;
+    line-height: 20px;
+}
+
+#h2-2 {
+    text-align: center;
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #101220;
+}
+
+
+
+h1 {
+    flex-direction: column;
+    line-height: 10px;
+    font-family: NATUREZA;
+    color: rgb(164, 235, 173);
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3ms all;
+}
+
+#fazer-login-btn {
+    border: 2px solid #9DFDD2;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#fazer-login-btn {
+    background-color: #101220;
+}
+
+#chama {
+    font-weight: 100px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 45px;
+    font-family: 'roboto', sans-serif;
+}
+
+span {
+    color: #22B573;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'roboto', sans-serif;
+}
+
+img {
+    width: 55%;
+    height: auto;
+    left: 10%px;
+    top: auto;
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#submit {
+    height: 50%;
+    width: 50%;
+    background-color: #22B573;
+    color: white;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
